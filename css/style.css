@@ -82,3 +82,19 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 .copy{border-top:1px solid #444;margin-top:32px;padding-top:16px;font-size:13px}
 @media(max-width:960px){.pillars,.news-grid,.t-grid,.v-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.ftr{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.menu-toggle{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:16px 24px;box-shadow:0 8px 20px rgba(0,0,0,.08)}nav.open{display:block}nav ul{flex-direction:column;align-items:flex-start}.hero-grid,.two,.pillars,.news-grid,.t-grid,.v-grid,.ftr{grid-template-columns:1fr}.logo img{height:54px}}
+/* v2: live-site look */
+.logo img{height:110px}
+.hero{position:relative;padding-bottom:110px}
+.hero::after,.wave-band::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:70px;background:url(../img/wave.svg) center bottom/100% 100% no-repeat;pointer-events:none}
+.wave-band{position:relative;padding-top:96px;padding-bottom:120px}
+.wave-band::before{content:"";position:absolute;left:0;right:0;top:-1px;height:70px;background:url(../img/wave-top.svg) center top/100% 100% no-repeat;pointer-events:none}
+.alt+.wave-band::before,.alt+.wave-band.cta-band::before{filter:none}
+.hero{background:linear-gradient(135deg,#55a1d4 0%,#7cb9e2 100%);color:#fff}
+.hero .lead,.hero h1,.hero p{color:#fff}.hero .btn-outline{color:#fff;border-color:#fff}
+.deco{position:relative;overflow:hidden}
+.deco::before,.deco::after{content:"";position:absolute;width:220px;height:264px;background:url(../img/infinity-heart.svg) center/contain no-repeat;opacity:.12;pointer-events:none;z-index:0}
+.deco::before{right:4%;top:30px}.deco::after{left:3%;bottom:20px;transform:scale(.7) rotate(-8deg)}
+.deco>.wrap{position:relative;z-index:1}
+.pending{font-size:13px;font-style:italic;opacity:.9;margin:-12px 0 24px}
+.ph-label{font-weight:700}
+@media(max-width:760px){.logo img{height:72px}.deco::before,.deco::after{width:120px;height:144px}.hero{padding-bottom:90px}}
