@@ -1,4 +1,4 @@
-:root{--blue:#55a1d4;--blue-d:#3a86ba;--gold:#edb937;--dark:#272727;--gray:#f1f1f1;--w:1180px}
+:root{--blue:#2d7cb2;--blue-d:#3273a0;--gold:#edb937;--dark:#272727;--gray:#f1f1f1;--w:1180px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:"Nunito Sans",Lato,Arial,sans-serif;font-size:18px;line-height:1.65;color:var(--dark);background:#fff}
 img{max-width:100%;height:auto;display:block}
@@ -89,7 +89,7 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 .wave-band{position:relative;padding-top:96px;padding-bottom:120px}
 .wave-band::before{content:"";position:absolute;left:0;right:0;top:-1px;height:70px;background:url(../img/wave-top.svg) center top/100% 100% no-repeat;pointer-events:none}
 .alt+.wave-band::before,.alt+.wave-band.cta-band::before{filter:none}
-.hero{background:linear-gradient(135deg,#55a1d4 0%,#7cb9e2 100%);color:#fff}
+.hero{background:linear-gradient(135deg,var(--blue) 0%,#287cb5 100%);color:#fff}
 .hero .lead,.hero h1,.hero p{color:#fff}.hero .btn-outline{color:#fff;border-color:#fff}
 .deco{position:relative;overflow:hidden}
 .deco::before,.deco::after{content:"";position:absolute;width:220px;height:264px;background:url(../img/infinity-heart.svg) center/contain no-repeat;opacity:.12;pointer-events:none;z-index:0}
@@ -105,3 +105,6 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 .ann{margin:40px 0}.ann img.flyer{border-radius:12px;max-width:100%;height:auto}
 .ann ul{margin:8px 0 16px}
 .year-h{margin-top:8px}
+/* QA contrast fixes (Oct 29 2026): WCAG AA 4.5:1. Brand blues darkened minimally (same hue): #55a1d4 -> #2d7cb2, #3a86ba -> #3273a0, hero gradient end #7cb9e2 -> #287cb5. Gold buttons use dark text. */
+nav a.cta,nav a.cta[aria-current]{color:var(--dark)}
+.site-footer a.btn-gold,.site-footer .btn-gold{color:var(--dark)}
