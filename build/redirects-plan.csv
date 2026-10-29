@@ -1,0 +1,7 @@
+from,to,status,note
+/about-us/,/susannas-story.html,301,"PLAN ONLY, apply at cutover. Live About Us page is Susanna's Story; board and FAQ now on /about.html"
+/get-help/,/get-support.html,301,PLAN ONLY; apply at cutover
+/get-involved/,/volunteer.html,301,PLAN ONLY; apply at cutover
+/contact-us/,/contact.html,301,PLAN ONLY; apply at cutover
+/newsletter/,/news.html#newsletters,301,"PLAN ONLY; apply at cutover (fragment is client-side; server redirect target is /news.html)"
+/announcements/,/news.html,301,PLAN ONLY; apply at cutover

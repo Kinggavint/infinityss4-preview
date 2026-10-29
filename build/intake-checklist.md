@@ -38,3 +38,14 @@
 - Testimonials / "Testimonials" (Google Doc): Jamie, Kristen and Kim quotes on index.html already match verbatim, with first-name attributions only.
 - Logos / "Infinity Logo.png" and "LOGO - Infinity (Susanna Smiles).pptx" (contains the same PNG); "Infinity Final Logo-01.png" is also there. There is NO standalone heart file: the heart exists only inside the full wordmark logo. The decorative img/infinity-heart.svg was not swapped. Open item: ask Karen for a heart-only file, or approve a crop from Infinity Logo.png.
 - ISS Photos / Susanna pictures: filenames listed only. No photos were replaced, pending Karen's photo discussion.
+
+## Live content restored (Oct 29 2026, second add-on)
+Source: live backup /workspace/apex_hq/infinity/live-backup-2026-10-29/ (api/pages-1.json + wp-content/uploads). Copy verbatim except org name normalized to "Infinity - Susanna Smiles".
+- news.html: A Legacy of Hope (text only; 4th video mp4 omitted), 2026 Announcements & Events (flyers, photos, Dance to Infinity Sponsorship Package + 2026 deck PDF, new Facebook page, Cards Against Cancer flyer + form link, 2025 sponsor thank-you), 2025 Announcements & Events (2025 sponsorship package slides, 2025 deck PDF, sponsorship sign-up, Time Is Ticking promo, BINGO thank-you + flyer PDF, 2025 Event Photos), 2024 Sponsors & Announcements (sponsor logos, Dec 29 2023 kick-off, July 18 2024 event + PDF, tickets flyer PDF, 2024 Event Photos), Quarterly Newsletters (Quarterly-newsletter.pdf), Videos (3 YouTube, no 4th video). Merged Dance to Infinity at Knuckleheads card unchanged. Images in img/news/ (large PNGs re-saved as JPEG, max 1600px, content unchanged); PDFs in files/.
+- index.html: "Over $110,000 provided to families in need in 2024" stat beside the $370K stat; Testimonials heading verbatim from live.
+- donate.html: Tax-exempt information + Volunteers Needed (live volunteer Airtable form).
+- get-support.html: Supportive Pillars (4 paragraphs).
+- volunteer.html: volunteer-run / no paid employees line + Ways to Help.
+- Dropped (not migrated): live Landing Page, WordPress "Hello world" post, gray placeholder video tiles.
+- build/redirects-plan.csv: 301 plan for cutover only.
+- COPY FLAGS pending Karen (verify.sh spaced-hyphen rule): donate "Donations ARE Tax-Deductible - the amount" and news "$20+taxes/fees - Standing Room Only" / "$50+taxes/fees - Reserved Seating" shown with colons; originals kept in HTML comments. Live typos "excel" and "provide" in the tax wording kept verbatim. Live FAQ "501c3 – Non-Profit" (en dash) not migrated; FAQs stay on about.html. Live Get Involved lists zip 64063; preview keeps 64081 per Oct 18 email.
