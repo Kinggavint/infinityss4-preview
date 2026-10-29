@@ -108,3 +108,6 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 /* QA contrast fixes (Oct 29 2026): WCAG AA 4.5:1. Brand blues darkened minimally (same hue): #55a1d4 -> #2d7cb2, #3a86ba -> #3273a0, hero gradient end #7cb9e2 -> #287cb5. Gold buttons use dark text. */
 nav a.cta,nav a.cta[aria-current]{color:var(--dark)}
 .site-footer a.btn-gold,.site-footer .btn-gold{color:var(--dark)}
+.v-grid.four{grid-template-columns:repeat(2,1fr)}
+.video video{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+@media(max-width:760px){.v-grid.four{grid-template-columns:1fr}}
