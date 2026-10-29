@@ -33,7 +33,7 @@ nav a.cta{background:var(--gold);padding:10px 16px;border-radius:30px}
 .stats{background:var(--blue);color:#fff}.stats .btn{background:#fff;color:var(--blue-d);border-color:#fff}.stats .btn-outline{background:transparent;color:#fff}.stats a{color:#fff}
 .intro,.big{font-size:22px}
 .stat-row{list-style:none;display:flex;justify-content:center;gap:56px;padding:0;margin:32px 0;flex-wrap:wrap}
-.stat-row strong{display:block;font-size:44px;font-weight:800;color:var(--gold)}
+.stat-row strong{display:block;font-size:44px;font-weight:800;color:#fff}
 .btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
 .mission .big{color:var(--blue-d);font-weight:600}
 .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin:36px 0}
