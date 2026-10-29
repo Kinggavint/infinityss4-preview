@@ -31,3 +31,10 @@
 
 ## Edit log
 - Oct 29 2026: Karen's Oct 29 edits: name with dash everywhere; home: Kansas City Metro in first paragraph, mission statement trimmed, "In 2024/2025" removed, Step 1 states the Greater Kansas City area; Application blurb and Airtable form from live site; Susanna's Story tightened; Givebutter donate button replaced by PayPal placeholder; Dance to Infinity and Knuckleheads merged.
+
+## Drive sources checked (Oct 29, read-only, folder "Infinity - Susanna Smiles")
+- Website detail for SS / "Final Infinity Marks story.docx": primary source for Susanna's Story. Tightened story on susannas-story.html cross-checked: every fact matches; nothing added.
+- Website detail for SS / "Potential content for Infinity Susanna Smiles website.docx": same story text (cross-check only). Its FAQ also says donations can be made "through our PayPal link", but no URL is given.
+- Testimonials / "Testimonials" (Google Doc): Jamie, Kristen and Kim quotes on index.html already match verbatim, with first-name attributions only.
+- Logos / "Infinity Logo.png" and "LOGO - Infinity (Susanna Smiles).pptx" (contains the same PNG); "Infinity Final Logo-01.png" is also there. There is NO standalone heart file: the heart exists only inside the full wordmark logo. The decorative img/infinity-heart.svg was not swapped. Open item: ask Karen for a heart-only file, or approve a crop from Infinity Logo.png.
+- ISS Photos / Susanna pictures: filenames listed only. No photos were replaced, pending Karen's photo discussion.
