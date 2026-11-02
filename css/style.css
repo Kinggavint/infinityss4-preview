@@ -68,10 +68,6 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 .pager{display:flex;justify-content:center;gap:12px}
 .prose{max-width:860px}.prose img{border-radius:16px;margin:28px 0}
 .cta-band{background:var(--blue);color:#fff}
-.ph-form{background:#fff;border:2px dashed var(--blue);border-radius:16px;padding:28px}
-.ph-label{background:#fff6dd;border:1px solid var(--gold);padding:8px 12px;border-radius:8px;font-size:14px}
-.ph-form label{display:block;font-weight:600;margin:12px 0;font-size:16px}
-.ph-form input,.ph-form textarea{display:block;width:100%;margin-top:6px;padding:12px;border:1px solid #ccc;border-radius:8px;font:inherit}
 .give{max-width:720px}
 .site-footer{background:var(--dark);color:#ddd;padding:56px 0 20px;font-size:15px}
 .site-footer a{color:#fff}.site-footer h4{color:var(--gold);font-size:16px}
@@ -95,7 +91,6 @@ blockquote p{font-size:16px;font-style:italic}cite{font-weight:700;font-style:no
 .deco::before{right:4%;top:30px}.deco::after{left:3%;bottom:20px;transform:scale(.7) rotate(-8deg)}
 .deco>.wrap{position:relative;z-index:1}
 .pending{font-size:13px;font-style:italic;opacity:.9;margin:-12px 0 24px}
-.ph-label{font-weight:700}
 @media(max-width:760px){.logo img{height:72px}.deco::before,.deco::after{width:120px;height:144px}.hero{padding-bottom:90px}}
 /* Restored live Announcements content (Oct 29 2026) */
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin:24px 0}
